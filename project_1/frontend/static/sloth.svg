@@ -1,0 +1,47 @@
+<!-- This file provides the SVG mascot artwork used by the frontend. -->
+<svg width="620" height="520" viewBox="0 0 620 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <ellipse cx="310" cy="470" rx="155" ry="20" fill="#1B1714" fill-opacity="0.12"/>
+  <ellipse cx="310" cy="350" rx="132" ry="126" fill="#A77D60"/>
+  <ellipse cx="310" cy="362" rx="88" ry="94" fill="#C9A283"/>
+  <path d="M214 338C238 314 270 302 310 302C350 302 382 314 406 338L389 434C370 449 346 460 310 460C274 460 250 449 231 434L214 338Z" fill="#24262C"/>
+  <path d="M262 326C276 318 292 314 310 314C328 314 344 318 358 326L348 436C336 442 324 446 310 446C296 446 284 442 272 436L262 326Z" fill="#FBF7F1"/>
+  <path d="M274 324L310 374L346 324" fill="#FBF7F1"/>
+  <path d="M274 324L310 374L346 324" stroke="#D8C6B5" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M242 338C253 330 268 324 289 322L266 432C251 424 241 411 235 390L242 338Z" fill="#1D1F24"/>
+  <path d="M378 338C367 330 352 324 331 322L354 432C369 424 379 411 385 390L378 338Z" fill="#1D1F24"/>
+  <path d="M296 328H324L318 348H302L296 328Z" fill="#121317"/>
+  <path d="M302 348H318L324 410L310 430L296 410L302 348Z" fill="#121317"/>
+  <rect x="333" y="350" width="26" height="62" rx="13" fill="#CFB796"/>
+  <rect x="338" y="356" width="16" height="22" rx="4" fill="#FBF7F1"/>
+  <path d="M346 322V350" stroke="#8A6A4C" stroke-width="6" stroke-linecap="round"/>
+  <ellipse cx="180" cy="370" rx="42" ry="96" transform="rotate(20 180 370)" fill="#9A7157"/>
+  <ellipse cx="440" cy="370" rx="42" ry="96" transform="rotate(-20 440 370)" fill="#9A7157"/>
+  <ellipse cx="224" cy="445" rx="42" ry="24" fill="#7B5845"/>
+  <ellipse cx="396" cy="445" rx="42" ry="24" fill="#7B5845"/>
+  <path d="M205 438L187 456" stroke="#1B1714" stroke-width="7" stroke-linecap="round"/>
+  <path d="M224 444L213 465" stroke="#1B1714" stroke-width="7" stroke-linecap="round"/>
+  <path d="M243 438L252 459" stroke="#1B1714" stroke-width="7" stroke-linecap="round"/>
+  <path d="M377 438L368 459" stroke="#1B1714" stroke-width="7" stroke-linecap="round"/>
+  <path d="M396 444L407 465" stroke="#1B1714" stroke-width="7" stroke-linecap="round"/>
+  <path d="M415 438L433 456" stroke="#1B1714" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="310" cy="206" r="128" fill="#A77D60"/>
+  <path d="M199 188C210 126 259 82 310 82C361 82 410 126 421 188C408 158 373 137 310 137C247 137 212 158 199 188Z" fill="#B99578"/>
+  <ellipse cx="310" cy="222" rx="96" ry="88" fill="#EAD5BF"/>
+  <ellipse cx="258" cy="220" rx="54" ry="65" fill="#F7ECE1"/>
+  <ellipse cx="362" cy="220" rx="54" ry="65" fill="#F7ECE1"/>
+  <ellipse cx="258" cy="224" rx="34" ry="39" fill="#6C4E3C"/>
+  <ellipse cx="362" cy="224" rx="34" ry="39" fill="#6C4E3C"/>
+  <circle cx="267" cy="220" r="13" fill="#171310"/>
+  <circle cx="353" cy="220" r="13" fill="#171310"/>
+  <circle cx="263" cy="215" r="4" fill="#FFFFFF"/>
+  <circle cx="349" cy="215" r="4" fill="#FFFFFF"/>
+  <ellipse cx="310" cy="248" rx="42" ry="30" fill="#F4E2D1"/>
+  <ellipse cx="310" cy="235" rx="25" ry="15" fill="#2A2420"/>
+  <ellipse cx="300" cy="234" rx="4" ry="3" fill="#FFFFFF" fill-opacity="0.55"/>
+  <path d="M288 267C296 277 303 282 310 282C317 282 324 277 332 267" stroke="#171310" stroke-width="7" stroke-linecap="round"/>
+  <path d="M203 318C224 304 246 298 269 300" stroke="#7B5845" stroke-width="18" stroke-linecap="round" opacity="0.5"/>
+  <path d="M417 318C396 304 374 298 351 300" stroke="#7B5845" stroke-width="18" stroke-linecap="round" opacity="0.5"/>
+  <ellipse cx="280" cy="382" rx="12" ry="16" fill="#8C664F" opacity="0.45"/>
+  <ellipse cx="320" cy="384" rx="12" ry="16" fill="#8C664F" opacity="0.45"/>
+  <ellipse cx="356" cy="378" rx="10" ry="14" fill="#8C664F" opacity="0.35"/>
+</svg>

@@ -1,0 +1,25 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+*.pem
+*.key
+*privateKey*
+# Local attendee data, logs and caches
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.log
+# Local environments and system files
+.venv/
+.venv_old/
+venv/
+project_1/env/
+__pycache__/
+*.py[cod]
+.DS_Store

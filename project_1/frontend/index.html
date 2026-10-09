@@ -1,0 +1,56 @@
+<!-- This file defines the main frontend structure for the conference registration chat application. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conference Sloth Assistant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Montserrat:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/static/styles.css?v=18" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <main class="stage">
+        <header class="masthead">
+          <div class="title-wrap">
+            <h1>Demo AI Conference</h1>
+            <div class="masthead-meta">
+              <span class="masthead-subtitle">registration assistant</span>
+              <span class="masthead-year">2026</span>
+            </div>
+          </div>
+        </header>
+
+        <section class="chat-panel">
+          <div class="message-feed" id="messageFeed" aria-live="polite"></div>
+
+          <section class="result-panel" id="resultPanel" hidden aria-live="polite"></section>
+
+          <section class="result-action-bar" id="resultActionBar" hidden aria-live="polite"></section>
+
+          <form class="composer" id="chatForm">
+            <div class="composer-box">
+              <textarea
+                id="messageInput"
+                name="message"
+                rows="1"
+                placeholder="Tell the sloth what you need."
+                required
+              ></textarea>
+              <button class="send-button" id="sendButton" type="submit" aria-label="Send">
+                Send
+              </button>
+            </div>
+          </form>
+        </section>
+      </main>
+    </div>
+
+    <script src="/static/app.js?v=12"></script>
+  </body>
+</html>

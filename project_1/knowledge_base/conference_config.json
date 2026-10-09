@@ -1,0 +1,108 @@
+{
+  "conference": {
+    "name": "Demo AI Conference 2026",
+    "short_name": "DAC 2026",
+    "timezone": "America/Los_Angeles",
+    "venue": "Demo Conference Center, San Francisco, CA",
+    "dates": [
+      {
+        "id": "june_12",
+        "label": "June 12, 2026",
+        "weekday": "Friday",
+        "theme": "AI Foundations and Product Strategy",
+        "registration_window": "08:00-17:00"
+      },
+      {
+        "id": "june_13",
+        "label": "June 13, 2026",
+        "weekday": "Saturday",
+        "theme": "Agents, Automation, and Applied RAG",
+        "registration_window": "08:30-17:30"
+      },
+      {
+        "id": "june_14",
+        "label": "June 14, 2026",
+        "weekday": "Sunday",
+        "theme": "Responsible Deployment and Future Work",
+        "registration_window": "09:00-15:30"
+      }
+    ]
+  },
+  "registration_rules": {
+    "selected_days": {
+      "min_days": 1,
+      "max_days": 3,
+      "allowed_values": ["june_12", "june_13", "june_14"]
+    },
+    "ticket_type": {
+      "required": true,
+      "select_exactly_one": true,
+      "allowed_values": ["student", "professional", "vip"]
+    },
+    "workshop_preference": {
+      "required": true,
+      "select_exactly_one": true,
+      "allowed_values": ["ai_agents", "rag_basics", "prompt_engineering"]
+    },
+    "accessibility_needs": {
+      "required": false
+    }
+  },
+  "ticket_types": [
+    {
+      "id": "student",
+      "label": "Student",
+      "price_usd": 49,
+      "audience": "Students, bootcamp learners, and early-career attendees with a valid student email or ID.",
+      "includes": ["conference access for selected days", "keynotes", "expo hall", "one workshop preference"],
+      "does_not_include": ["VIP lounge", "speaker dinner"]
+    },
+    {
+      "id": "professional",
+      "label": "Professional",
+      "price_usd": 149,
+      "audience": "Engineers, researchers, founders, product managers, and working professionals.",
+      "includes": ["conference access for selected days", "keynotes", "expo hall", "one workshop preference", "networking reception"],
+      "does_not_include": ["VIP lounge", "speaker dinner"]
+    },
+    {
+      "id": "vip",
+      "label": "VIP",
+      "price_usd": 299,
+      "audience": "Attendees who want premium networking access and reserved seating.",
+      "includes": ["conference access for selected days", "reserved keynote seating", "VIP lounge", "speaker dinner", "one workshop preference"]
+    }
+  ],
+  "workshops": [
+    {
+      "id": "ai_agents",
+      "label": "AI Agents",
+      "day_id": "june_13",
+      "time": "13:30-15:00",
+      "level": "intermediate",
+      "capacity": 80,
+      "description": "A hands-on session on planning, tool use, state management, and guardrails for task-oriented AI agents."
+    },
+    {
+      "id": "rag_basics",
+      "label": "RAG Basics",
+      "day_id": "june_12",
+      "time": "14:00-15:30",
+      "level": "beginner",
+      "capacity": 100,
+      "description": "An introductory workshop on document loading, chunking, retrieval, grounding, and answer fallback behavior."
+    },
+    {
+      "id": "prompt_engineering",
+      "label": "Prompt Engineering",
+      "day_id": "june_14",
+      "time": "10:45-12:15",
+      "level": "beginner",
+      "capacity": 90,
+      "description": "A practical workshop on instructions, examples, structured outputs, and evaluation prompts."
+    }
+  ],
+  "dietary_options": ["no preference", "vegetarian", "vegan", "halal", "kosher", "gluten-free", "allergy note"],
+  "statuses": ["active", "cancelled"]
+}
+

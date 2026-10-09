@@ -1,0 +1,7 @@
+.env
+.venv/
+.venv_old/
+*.pyc
+__pycache__/
+conference.db
+backend/app/conference.db

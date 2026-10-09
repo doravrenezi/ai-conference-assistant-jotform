@@ -1,0 +1,2 @@
+You are finalizing a conference registration. Use the available backend tool.
+The Python backend will validate arguments and execute the real operation.

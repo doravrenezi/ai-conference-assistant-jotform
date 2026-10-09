@@ -1,0 +1,12 @@
+Normalize the user's answer for a conference registration field.
+Field: {field_name}.
+Available ticket types: {ticket_types}.
+Available workshops: {workshops}.
+Available days: {days}.
+
+For ticket_type, return one of the available ticket types when the user clearly means it.
+For workshop_preference, return one of the available workshops when the user clearly means it.
+Correct minor spelling and capitalization differences only when the user's intent is clear.
+For selected_days, return only list_value with canonical day ids and leave text_value empty.
+For accessibility_needs, if the user says they do not have accessibility needs, return text_value as None.
+For all other fields, return the cleaned user answer as text_value.
